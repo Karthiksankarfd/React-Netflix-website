@@ -1,0 +1,10 @@
+/* Add these styles to your CSS file */
+.scrollable-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 16px; 
+  }
+  
+
+  

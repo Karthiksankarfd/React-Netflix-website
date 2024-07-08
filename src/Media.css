@@ -1,0 +1,156 @@
+
+@media only screen and (max-width: 900px){
+  .Option_button {
+    display:block;
+  }
+
+
+
+
+}
+
+
+@media only screen and (max-width: 450px){
+  #tab_and_laptop_logo{
+   display:none;
+  }
+ 
+  #mobile_logo{
+   display: block;
+   height: 40px;
+   width: 90px;
+  }
+ 
+  .three_icons{
+   display: flex;
+   width: 50%;
+   justify-content: space-around;
+   padding-right: 10px;
+  }
+ 
+  .bell, .profile, .sign-in-out{
+    width:30%;
+  }
+ 
+ 
+  .icons img{
+   height:18px;
+   
+ }
+ 
+ 
+ 
+ .sign-in-out a{
+   font-size:12px;
+ 
+ }
+ 
+ .tittle-section {
+   padding-left: 30px;
+   top: 35%;
+   position: absolute;
+ }
+ 
+ 
+ 
+ 
+ 
+ }
+
+ 
+ 
+@media only screen and (max-width: 900px){
+ 
+  /* when screen size reach to 800px */
+ .logo {
+   height: 60px;
+   width: 6%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+ }
+ 
+ .logo img {
+   height: 30px;
+ }
+ 
+ .navbar_width_full {
+ 
+   width: 100%;
+   align-items: center;
+   height: 60px;
+   display: flex;
+   background-color: black;
+   justify-content: space-evenly;
+ }
+ 
+ }
+
+ 
+ 
+@media only screen and (max-width:900px) {
+  .navlinks {
+    display: none;
+  }
+
+  .logo {
+    padding: 0px 30px;
+    /* padding: 30px 0px; */
+   
+  }
+
+  .searchsection input {
+    display: none;
+  }
+  
+  .icons {
+    width:10%;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 900px) {
+  .tittle-section {
+    padding-left: 30px;
+    top: 35%;
+    position: absolute;
+  }
+
+  .tittle-section p {
+    font-size: 12px;
+    width: 80%;
+  }
+
+  .tittle-section img{
+    height:50px;
+  }
+
+  .tittle-section-buttons button {
+    width: 5rem;
+    height: 2rem;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  button {
+    background: none;
+    border: 1px solid white;
+    width: 7rem;
+    font-size:10px;
+    height: 1.5rem;
+    color: white;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+  video {
+    width: 100%;
+    height: 100%;
+  }
+}

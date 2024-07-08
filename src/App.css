@@ -1,0 +1,436 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  /* overflow:hidden; */
+}
+
+.navbar_width_full {
+
+  width: 100%;
+  align-items: center;
+  height: 100px;
+  display: flex;
+  /* padding:0px 40px; */
+  background-color: black;
+  justify-content: space-evenly;
+}
+
+.Option_button {
+  display:none;
+}
+
+select{
+  padding: 5px 10px;
+  background: transparent;
+  color: white;
+  font-size: 12px;
+  font-family: system-ui;
+  border-radius:6px;
+}
+
+option{
+  color: black;
+}
+
+
+
+
+
+
+/* logo section */
+.logo {
+  height: 100px;
+  width: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+.logo #tab_and_laptop_logo {
+  height: 40px;
+}
+
+/* for icons */
+.icons img{
+  height:26px;
+}
+
+.three_icons{
+  display: flex;
+  width: 20%;
+  justify-content: space-around;
+  padding-right: 10px;
+ }
+
+
+/* for mobile screen */
+#mobile_logo{
+  display:none;
+ }
+
+
+
+/* navlink section */
+
+.navlinks {
+  height: 100px;
+  display: flex;
+  width: 40%;
+}
+
+
+input[type="text"] {
+  border: 1px solid white;
+  background: none;
+  height: 30px;
+  padding: 0px 0px 0px 20px;
+  width: 200px;
+  color: white;
+}
+
+/* input[type="text"]::placeholder {
+  color: white;
+} */
+
+/* input[type="text"]:focus {
+  width: 120px;
+} */
+
+.navlinks ul {
+  height: 100px;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navlinks ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+.searchsection,
+.profile,
+.bell,
+.sign-in-out {
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.searchsection {
+  width: 20%;
+  /* float: right; */
+}
+
+.profile,
+.bell,
+.sign-in-out {
+  width: 5%;
+}
+.sign-in-out a {
+  /* width: 5%; */
+  text-decoration: none;
+  color: white;
+}
+
+.profile a {
+  text-decoration: none;
+  color: white;
+}
+
+.bell a {
+  text-decoration: none;
+  color: white;
+}
+
+/* css for app.js components */
+.App {
+  position: relative;
+}
+.navbar_home_section {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+
+/* css for hero-videe-section */
+.hero-videe-section {
+  position: relative;
+}
+
+.tittle-section {
+  padding-left: 50px;
+  top: 35%;
+  position: absolute;
+}
+
+.tittle-section img{
+  height:200px;
+}
+
+
+button {
+  background: none;
+  border: 2px solid white;
+  width: 7rem;
+  height: 2.5rem;
+  color: white;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.overlay_image img {
+  height: 100px;
+}
+
+video {
+  width: 100%;
+  height: 80%;
+}
+
+
+
+.overlay_button button {
+  height: 100%;
+  padding: 14px 20px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+}
+
+.overlay_description {
+  width: 50%;
+  padding-left: 5%;
+}
+
+/* } */
+
+
+
+.scroll-container h1{
+  color: white;
+  padding: 0px 30px;
+}
+
+
+.scroll-container {
+ 
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  height: 400px;
+  display: grid;
+  align-items: center;
+}
+
+.item-grid {
+  display: grid;
+  /* margin:80px 0px; */
+  /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+  grid-gap: 20px;
+  padding: 10px;
+  grid-auto-flow: column;
+  white-space: nowrap;
+}
+
+.scroll-container::-webkit-scrollbar{
+  width: 0; /* Set the width to 0 to hide the scrollbar */
+}
+
+/* .item {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  white-space: normal;
+} */
+
+
+/* css for sign in page */
+
+
+.signinpart {
+  /* height: 500px; */
+
+  /* width: 400px; */
+  /* display: block; */
+  /* left: 35%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px;
+  /* position: relative; */
+
+  /* z-index: -2; */
+}
+
+.sign-transparent-1 {
+  width: 400px;
+  height: 500px;
+  padding: 40px;
+  position: absolute;
+    z-index: 1;
+
+  /* background-color: red; */
+  /* background: transparent; */
+  /* position: absolute; */
+  /* position: relative; */
+  /* z-index: -1; */
+}
+
+.sign-transparent-2 {
+  width: 400px;
+  padding: 40px;
+  height: 600px;
+  background-color: rgb(2, 2, 1);
+  /* position: absolute;
+  z-index: -2; */
+  opacity: 80%;
+  margin: 80px 0px;
+  /* padding: 40px; */
+}
+
+#h1 {
+  color: white;
+  text-align: left;
+}
+
+input[type="password"] {
+  background-color: gray;
+  /* border: 0px 2px orange 0px 0px; */
+  /* border: 2px solid red; */
+  width: 316px;
+  height: 50px;
+  border-radius: 6px;
+  margin-top: 20px;
+  outline: orange;
+  cursor: default;
+}
+
+input[type="email"] {
+  background-color: gray;
+  /* border: 0px 2px orange 0px 0px; */
+  /* border: 2px solid red; */
+  width: 316px;
+  height: 50px;
+  border-radius: 6px;
+  margin-top: 20px;
+  outline: orange;
+  cursor: default;
+}
+
+/* input::placeholder:hover{
+   top: 10px;
+} */
+
+::placeholder {
+  color: rgb(54, 50, 50);
+  padding-left: 20px;
+}
+
+#btn {
+  width: 316px;
+  height: 50px;
+  background-color: red;
+  font-size: 25px;
+  color: white;
+  font-weight: 700;
+  border-radius: 6px;
+  border: none;
+  margin-top: 20px;
+}
+
+.Check-box {
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
+
+.Check-box-section {
+  height: 30px;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+span {
+  color: white;
+  font-size: 15px;
+}
+
+/* newuser-signup */
+
+.newuser-signup {
+  display: flex;
+  height: 50px;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+.newuser-signup h4 {
+  font-size: 15px;
+  color: rgb(70, 60, 60);
+}
+
+.newuser-signup a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+/* .main-container{
+  /* width: 100%; */
+/* display: flex; */
+/* align-items: center; */
+/* flex-direction: column; */
+/* } */
+
+
+
+
+/* animation  css */
+
+/* 
+/* .animatedimage{
+  -webkit-animation: MoveUpDown 1s linear infinite;
+  animation: MoveUpDown 1s linear infinite;
+  height: 100px;
+} */ */
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 100px;
+  }
+}
+
+
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+} 
+
+.animatedimage {
+  animation: moveUpDown 3s ease-in-out infinite; 
+
+  /* Adjust duration and timing function as needed */
+}

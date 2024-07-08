@@ -1,0 +1,158 @@
+body {
+  background-color: #212121;
+}
+
+.hoverscrollablecontainer_secondary {
+  /* Styles for the .hoverscrollablecontainer_secondary */
+  height: 150px;
+  width: 240px;
+  position:relative;
+  
+}
+
+.hover_card_parent {
+  /* Styles for the .hover_card_parent */
+ 
+  position: relative;
+}
+.hovercomponent,
+.hovercomponent-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.hovercomponent-cards {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20PX;
+}
+
+/* If you want to style the individual .hover_card_parent elements separately,
+ you can do so like this */
+.hover_card_parent:nth-child(1) {
+  height: 150px;
+  width: 240px;
+ 
+  transform: scale(1) translateY(0);
+ 
+  transition: 0.1s, 0.2s;
+  transition-delay: 0.2s;
+  z-index: 0;
+  position: absolute;
+}
+
+.hover_card_parent:nth-child(2) {
+  height: 150px;
+  overflow: hidden;
+  width: 240px;
+  background-color: rgb(3, 3, 3);
+ 
+  transition: 0.1s, 0.2s;
+  transition-delay: 0.2s;
+}
+
+.hover_card_parent:nth-child(2) img {
+  /* height: 400px; */
+  width: 240px;
+}
+
+.hover_card_parent:nth-child(2) h4 {
+  color: green;
+
+  padding-left: 10px;
+}
+
+.hover_card_parent:nth-child(2) h4,
+span {
+  font-size: 12px;
+}
+
+.hover_card_parent:hover {
+  z-index: 1;
+}
+
+
+
+.hover_card_parent-child {
+  height: 45px;
+  width: 100%;
+  /* border: 1px solid white; */
+  display: flex;
+  align-items: center;
+}
+.hover_card_parent-child:nth-child(2) {
+  height: 45px;
+  width: 100%;
+  /* border: 1px solid white; */
+  display: flex;
+  /* flex-direction:column; */
+  column-gap: 5px;
+  align-items: center;
+}
+
+.functional_buttons_display_flex {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+  margin-left: 10px;
+  padding-top: 5px;
+}
+
+.drop_down_button {
+  width: 30%;
+}
+
+
+.hover_card_parent:hover .hover_card_parent:nth-child(1) {
+    background-color: rgb(44, 43, 43);
+
+    transform: scale(1.2) translateY(50%);
+    
+
+    /* row-gap: 5px; */
+  }
+
+.hover_card_parent:hover .hover_card_parent:nth-child(2) {
+
+  transform: scale(1.2) translateY(-50%);
+
+}
+
+
+
+.scroll-container {
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.scroll-content {
+  display: grid;
+  /* height:140px; */
+  grid-auto-flow: column;
+  grid-gap: 10px; /* Adjust the gap as needed */
+  padding: 10px; /* Add padding to the container if desired */
+  width: max-content; /* Adjust as needed */
+}
+
+.item {
+  /* Style for individual items */
+  /* height:140px; */
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  transition:scale 0.5s;
+}
+
+.item:hover{
+  scale:1.5;
+}
+
+
+
+
+
+
+
+  

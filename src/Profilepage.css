@@ -1,0 +1,58 @@
+.Profilepage_container{
+    width:90%;
+    padding:5%;
+    height:500px;
+    
+}
+
+.Profilepage_container_secondary{
+    width: 90%;
+    padding: 5%;
+    height: 400px;
+    background: white;
+
+}
+
+.user_profile{
+    display: flex;
+    column-gap: 20px;
+    height: 60px;
+    border: 1px solid white;
+    margin: 20px 0px;
+    width:90%;
+    box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+.email{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left:20px;
+
+}
+
+.email span ,p{
+    color:black;
+}
+
+
+/* Notification css */
+
+.Notification{
+    height: 400px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.Notification h3{
+   margin-top:20px;
+}
+
+
+.background-image{
+    background-image:url("https://springboard-cdn.appadvice.com/wp-content/appadvice-v2-media/2016/11/Netflix-background_860c8ece6b34fb4f43af02255ca8f225.jpg");
+    /* opacity:50%; */
+    
+}

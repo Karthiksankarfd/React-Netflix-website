@@ -1,0 +1,58 @@
+/* Styles for the 'Tvshows_container' */
+.Tvshows_container {
+    /* Add your styles for the outermost container here */
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    height:400px;
+
+}
+
+/* Styles for the 'Tvshows-grid' */
+.Tvshows-grid {
+    /* Add your styles for the grid container here */
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 10px; /* Adjust the gap as needed */
+    padding: 10px; /* Add padding to the container if desired */
+    width: max-content; /* Adjust as needed */
+}
+
+.parent_conatier{
+    /* position:relative; */
+}
+/* Styles for the 'parent_conatier' */
+.parent_conatier:hover .parent_conatier-child_two{
+    /* Add your styles for the parent container here */
+    
+   
+  
+}
+
+.parent_conatier:hover .parent_conatier-child_one{
+    /* Add your styles for the parent container here */
+    
+   
+  
+}
+
+/* Styles for the 'parent_conatier-child_one' */
+.parent_conatier-child_one {
+    /* Add your styles for the first child container here */
+    height:150px;
+    width:200px;
+    background:RED;
+    /* position:absolute; */
+}
+
+/* Styles for the 'parent_conatier-child_two' */
+.parent_conatier-child_two {
+    /* Add your styles for the second child container here */
+    height:150px;
+    width:200px;
+    background:BLUE;
+    /* display:none; */
+    
+}
+
+
